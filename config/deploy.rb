@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.9.0'
+lock '3.4.0'
 
 # you can set up multiple server roles using capistrano
 server 'server', port: 7171, roles: [:web, :app, :db], primary: true
