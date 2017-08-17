@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.4.0'
+lock '3.9.0'
 
 # you can set up multiple server roles using capistrano
 server '54.175.37.180', roles: [:web, :app, :db], primary: true
@@ -28,7 +28,7 @@ set :puma_init_active_record, false  # Change to true if using ActiveRecord
 
 ## Defaults:
 # set :scm,           :git
-# set :branch,        :develop
+# set :branch,        :master
 # set :format,        :pretty
 # set :log_level,     :debug
 # set :keep_releases, 5
