@@ -2,7 +2,7 @@
 lock '3.4.0'
 
 # you can set up multiple server roles using capistrano
-server 'server', port: 7171, roles: [:web, :app, :db], primary: true
+server '54.175.37.180', roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:jake-lim/testdepot.git'
 set :application,     'testdepot'
